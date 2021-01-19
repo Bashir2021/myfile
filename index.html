@@ -1,0 +1,161 @@
+​<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+
+  body 
+  {
+   font: 24px Helvetica;
+   background: #999999;
+   margin: 0px;
+   padding: 0px;
+   background-image: url("bilder/img0.jpg");
+
+  }
+  .header
+  { color: hotpink;
+    height: 35px;
+  }
+
+  .main 
+  {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+   min-height: 87%;
+   
+  }
+
+ 
+   .footer
+   {  
+    float: right ;
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction:row-reverse;
+    min-height: 20px;
+    background:#1C2D3E;
+    width: 100%;
+  
+   }
+   .footer1
+   {  
+        display:flex;
+        float: left;
+        align-items:flex-start;
+        flex-direction: row;
+        min-height: 20px;
+        background:#1C2D3E;
+        width: 100%;
+   }
+   .footer  img
+   {
+
+     margin:  5px;
+     width:auto;
+     height: auto;
+   }
+   .footer1  img
+   {
+
+      margin: 5px;
+      width:auto;
+      height: auto;
+
+}
+.footer1:hover img
+{
+    border-style: solid;
+    border-width: 2px; border-color:lawngreen; 
+}
+
+  /* Too narrow to support three columns */
+  @media all and (max-width: 640px) {
+
+   .main, #page 
+   {
+            flex-direction: column;
+   }
+
+   }
+  .main img
+  {
+    margin:  10px;
+    width:80px;
+   
+  }
+   .main:hover img
+   {
+       border-style: solid;
+       border-width: 2px; border-color:lawngreen; }
+    
+   }
+
+
+.header ul 
+{
+    float: right ;
+  list-style-type: none;
+}
+
+.header ul li 
+{   color: rgb(236, 115, 16);
+
+  display: inline;
+  padding: 5px;
+  float: right;
+
+}
+ 
+  .header ul li :hover
+  { 
+    color: rgb(255, 208, 0);
+    padding: 5px;
+  }
+
+ </style>
+  </head>
+  <body>
+
+    <div class="header" >
+        <ul>
+            
+            <li><a href="file://C:/Windows/system32/control.exe">Control Panel</a></li>
+            <li><a href="file://C:/Windows/system32/calc.exe">Calculator</a></li>
+            <li><a href="C:\Program Files\Microsoft Office\Office16\winWord.exe">excel</a></li>
+            <li><a href="C:\Program Files\Microsoft Office\Office16\excel.exe">word</a></li>
+            <li><a href="gallary.html">Gallery</a></li>
+          </ul>
+        </div>
+  <div class="main" >
+            <img src="bilder/icondesktop1.png" alt="">
+            <img src="bilder/icondesktop2.png" alt="">
+            <img src="bilder/icondesktop3.png" alt="">
+            <img src="bilder/icondesktop4.png" alt="">
+   </div>
+ <div class="footer" >
+    <img src="bilder/icon1.png" alt="">
+    <img src="bilder/icon2.png" alt="">
+    <img src="bilder/icon3.png" alt="">
+    <img src="bilder/icon4.png" alt="">
+    <img src="bilder/icon5.png" alt="">
+    <img src="bilder/icon6.png" alt=""> 
+    
+    <div class="footer1" >
+    <img src="bilder/icon7.png" alt="">
+    <img src="bilder/icon8.png" alt="">
+    <img src="bilder/icon9.png" alt="">
+    <img src="bilder/icon10.png" alt="">    
+    <img src="bilder/taskbarprog.png" alt="">    
+
+    </div>   
+  </div>
+ 
+
+     
+<div class="img"></div>
+</body>
+</html>
